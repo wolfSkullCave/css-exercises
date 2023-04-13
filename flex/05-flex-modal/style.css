@@ -20,6 +20,11 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+  /* flex settings */
+  display: flex;
+  padding: 15px;
+  gap: 15px;
 }
 
 .icon {
@@ -33,6 +38,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  /* flex settings */
+  min-width: 40px;
 }
 
 .close-button {
@@ -64,3 +72,28 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* My styles */
+
+.modal-msg {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  font-weight: bolder;
+  font-size: large;
+}
+
+.modal-footer {
+  padding-top: 5px;
+}
+
+/* Not that different from the solution */
