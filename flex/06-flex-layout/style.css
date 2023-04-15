@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
   height: 100vh;
@@ -16,6 +16,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+
+  padding: 0 16px;
 }
 
 input {
@@ -24,4 +26,65 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+
+  text-align: center;
 }
+
+/* added styles */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+
+  /* border: 1px solid black; */
+  /* padding: 0 10px */
+
+}
+
+/* ul li {
+  list-style-type: none;
+} */
+
+ul {
+  display: flex;
+  gap: 16px;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px
+
+}
+
+.footer {
+  background-color: #eee;
+}
+
+.content {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  flex: initial;
+  gap: 10px;
+}
+
+/* 
+
+Overall not I did not do a bad job. 
+There were some unnecessary styles in my code but nothing major. 
+
+*/
