@@ -1,0 +1,18 @@
+/* type selector practice */
+.container p {
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* class selector practice */
+/* .container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+
+} */
+
+/* Correct. Well done! */
